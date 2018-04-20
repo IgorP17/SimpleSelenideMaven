@@ -37,10 +37,8 @@
 `import com.codeborne.selenide.ElementsCollection;`  
 `import org.junit.Test;`  
 `import org.openqa.selenium.By;`  
-  
-`import static com.codeborne.selenide.Selenide.*;`  
-`import static com.codeborne.selenide.Condition.*;`
-
+`import static com.codeborne.selenide.Selenide.*;`    
+`import static com.codeborne.selenide.Condition.*;`  
 `public class TestSomething {`  
     `@Test`  
     `public void userCanLoginByUsername() {`  
