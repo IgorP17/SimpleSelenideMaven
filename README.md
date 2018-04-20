@@ -32,12 +32,12 @@
 
 8. Удалить классы в test AppTest и в main App
 
-9. Пишем тест в тестах типа такого  
+9. Пишем класс в тестах типа такого  
 `package org.selenide.examples;`  
 `import com.codeborne.selenide.ElementsCollection;`  
 `import org.junit.Test;`  
 `import org.openqa.selenium.By;`  
-
+  
 `import static com.codeborne.selenide.Selenide.*;`  
 `import static com.codeborne.selenide.Condition.*;`
 
