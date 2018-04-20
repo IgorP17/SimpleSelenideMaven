@@ -14,11 +14,11 @@
 3. Открываем проект в IDEA
 
 4. Открываем pom и добавляем зависимость (после junit)
-`<dependency>`
-    `<groupId>com.codeborne</groupId>`
-    `<artifactId>selenide</artifactId>`
-    `<version>4.11.1</version>`
-    `<scope>test</scope>`
+`<dependency>`  
+    `<groupId>com.codeborne</groupId>`  
+    `<artifactId>selenide</artifactId>`  
+    `<version>4.11.1</version>`  
+    `<scope>test</scope>`  
 `</dependency>`
 
 5. В консоли (там где проект, мы оттуда не уходили)
