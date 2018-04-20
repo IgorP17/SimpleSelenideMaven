@@ -42,7 +42,7 @@
 `import static com.codeborne.selenide.Condition.*;`
 
 `public class TestSomething {`  
-    `@Test`  
+`   @Test`  
     `public void userCanLoginByUsername() {`  
         `open("https://yandex.ru");`  
         `$(By.id("text")).setValue("selenide").pressEnter();`  
