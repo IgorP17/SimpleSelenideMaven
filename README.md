@@ -42,7 +42,7 @@
 `import static com.codeborne.selenide.Condition.*;`
 
 `public class TestSomething {`  
-`   @Test`  
+    `@Test`  
     `public void userCanLoginByUsername() {`  
         `open("https://yandex.ru");`  
         `$(By.id("text")).setValue("selenide").pressEnter();`  
@@ -55,4 +55,5 @@
     `}`  
 `}`  
 
+10. В cmd (мы же еще там? :-) делаем `mvn clean test` и по идее все запустилось и отработало. Но, я еще допполню тест :-)
 
