@@ -13,7 +13,7 @@
 
 3. Открываем проект в IDEA
 
-4. Открываем pom и добавляем зависимость (после junit)
+4. Открываем pom и добавляем зависимость (после junit)  
 `<dependency>`  
     `<groupId>com.codeborne</groupId>`  
     `<artifactId>selenide</artifactId>`  
