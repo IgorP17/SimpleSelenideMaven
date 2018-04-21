@@ -60,3 +60,7 @@
 
 11. В cmd (мы же еще там? :-) делаем `mvn clean test` и по идее все запустилось и отработало. Но, я еще допполню тест :-)
 
+12. Запуск под не FF  
+* `mvn clean test -Dselenide.browser=edge`  
+* или через код `Configuration.browser = "chrome";`  
+* Зырим тут `http://ru.selenide.org/javadoc.html` `Class Configuration` поле `browser`
