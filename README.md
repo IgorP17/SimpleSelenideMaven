@@ -1,24 +1,24 @@
 # SimpleSelenideMaven
 
 ## 1. задача номер 1...
-0. `src/main/java/fizzbuzz/FizzBuzz.java`
-1. Время написания кода(цикл + if структура) - 2 мин 26 сек
-2. Поменять `String pathToFile` на свой 
+1. `src/main/java/fizzbuzz/FizzBuzz.java`
+2. Время написания кода(цикл + if структура) - 2 мин 26 сек
+3. Поменять `String pathToFile` на свой 
 
 ## 2. задача номер 2...
 
-0. Качаем мавен, раззиповываем, добавляем в PATH `bin` и   
+1. Качаем мавен, раззиповываем, добавляем в PATH `bin` и   
 `mvn -v` - должно что то внятное сказать
 
-1. В директории с проектами делаем cmd  
+2. В директории с проектами делаем cmd  
 `mvn archetype:generate -DgroupId=org.selenide.examples -DartifactId=SimpleSelenideMaven`
 
-2. Заходим в проект/директорию SimpleSelenideMaven и  
+3. Заходим в проект/директорию SimpleSelenideMaven и  
 `mvn idea:idea`
 
-3. Открываем проект в IDEA
+4. Открываем проект в IDEA
 
-4. Открываем pom и добавляем зависимость (после junit)  
+5. Открываем pom и добавляем зависимость (после junit)  
 `<dependency>`  
     `<groupId>com.codeborne</groupId>`  
     `<artifactId>selenide</artifactId>`  
@@ -26,18 +26,18 @@
     `<scope>test</scope>`  
 `</dependency>`
 
-5. В консоли (там где проект, мы оттуда не уходили)
+6. В консоли (там где проект, мы оттуда не уходили)
 `mvn test`
 Скачает зависимости
 
-6. Заново запускаем команду для обновления проекта
+7. Заново запускаем команду для обновления проекта
 `mvn idea:idea`
 
-7. В IDEA идем в настройки проекта, Modules -> Dependencies и должны увидеть кучу зависимостей selenide, selenium, ets
+8. В IDEA идем в настройки проекта, Modules -> Dependencies и должны увидеть кучу зависимостей selenide, selenium, ets
 
-8. Удалить классы в test AppTest и в main App
+9. Удалить классы в test AppTest и в main App
 
-9. Пишем класс в тестах типа такого  
+10. Пишем класс в тестах типа такого  
 `package org.selenide.examples;`  
 `import com.codeborne.selenide.ElementsCollection;`  
 `import org.junit.Test;`  
@@ -58,5 +58,5 @@
     `}`  
 `}`  
 
-10. В cmd (мы же еще там? :-) делаем `mvn clean test` и по идее все запустилось и отработало. Но, я еще допполню тест :-)
+11. В cmd (мы же еще там? :-) делаем `mvn clean test` и по идее все запустилось и отработало. Но, я еще допполню тест :-)
 
