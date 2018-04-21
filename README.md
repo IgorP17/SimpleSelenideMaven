@@ -37,7 +37,7 @@
 
 9. Удалить классы в test AppTest и в main App
 
-10. Пишем класс в тестах типа такого test/java/org/selenide/examples/TestSomething.java  
+10. Пишем класс в тестах типа такого `test/java/org/selenide/examples/TestSomething.java`  
 `package org.selenide.examples;`  
 `import com.codeborne.selenide.ElementsCollection;`  
 `import org.junit.Test;`  
