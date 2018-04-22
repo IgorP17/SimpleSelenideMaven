@@ -33,7 +33,7 @@
 7. Заново запускаем команду для обновления проекта
 `mvn idea:idea`
 
-8. В IDEA идем в настройки проекта, Modules -> Dependencies и должны увидеть кучу зависимостей selenide, selenium, ets
+8. В IDEA идем в настройки проекта, Modules -> Dependencies и должны увидеть кучу зависимостей selenide, selenium, etc
 
 9. Удалить классы в test AppTest и в main App
 
@@ -58,9 +58,9 @@
     `}`  
 `}`  
 
-11. В cmd (мы же еще там? :-) делаем `mvn clean test` и по идее все запустилось и отработало. Но, я еще допполню тест :-)
+11. В cmd (мы же еще там? :-) делаем `mvn clean test` и по идее все запустилось и отработало. Но, я еще дополню тест :-)
 
 12. Запуск под не FF  
 * `mvn clean test -Dselenide.browser=edge`  
 * или через код `Configuration.browser = "chrome";`  
-* Зырим тут `http://ru.selenide.org/javadoc.html` `Class Configuration` поле `browser`
+* Смотрим тут `http://ru.selenide.org/javadoc.html` `Class Configuration` поле `browser`
