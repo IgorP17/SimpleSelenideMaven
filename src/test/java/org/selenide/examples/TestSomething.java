@@ -1,6 +1,5 @@
 package org.selenide.examples;
 
-import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.ElementsCollection;
 import org.junit.Test;
 import org.junit.runner.RunWith;
