@@ -1,6 +1,7 @@
 package org.selenide.examples;
 
 import com.codeborne.selenide.ElementsCollection;
+//import com.codeborne.selenide.Selenide;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -42,6 +43,8 @@ public class TestSomething {
 //        $(".loading_progress").should(disappear); // Само подождёт, пока элемент исчезнет
 //        $("#username").shouldHave(text("Hello, Johny!")); // Само подождёт, пока у элемента появится нужный текст
 
+//        String alertText = Selenide.switchTo().alert().getText();
+//        Selenide.switchTo().alert().accept();
         System.out.println("=== Первый элемент с текстом = " + $(By.className("extended-text__short")).getText());
         System.out.println("=== Всего по локатору нашли элементов = " + $$(By.className("extended-text__short")).size());
 
