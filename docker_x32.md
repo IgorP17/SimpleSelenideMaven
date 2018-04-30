@@ -1,6 +1,6 @@
 # Попытка установить docker на win 7 x32
 
-## ----
+## ---- FAIL...(
 
 ### 1.1 Устанавливаем Chocolatey
 Cmd as admin  
@@ -13,3 +13,7 @@ Cmd as admin
 
 ### 1.4 PowerShell as admin  
 `choco install docker-machine -y`  
+
+https://medium.com/@chrispatten/installing-and-running-docker-on-32-bit-windows-d18b95ee1fc3
+
+
