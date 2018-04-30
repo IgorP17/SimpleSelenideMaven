@@ -11,3 +11,4 @@ PowerShell
 ### 1.2 Проверяем Chocolatey  
 Закрываем, открываем cmd as admin, пишем choco - скажет версию и подсказку  
 
+### 1.3 Качаем ставим VirtualBox  
