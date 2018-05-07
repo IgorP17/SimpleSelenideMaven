@@ -1,6 +1,5 @@
 package org.selenide.examples;
 
-import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.ElementsCollection;
 //import com.codeborne.selenide.Selenide;
 import org.junit.Test;
@@ -38,8 +37,6 @@ public class TestSomething {
     @Test
     public void searchYandex() {
         System.out.println("=== Ищем слово \"" + searchString + "\" ===");
-        Configuration.timeout = 20000;
-        Configuration.collectionsTimeout = 20000;
         open("https://yandex.ru");
         $(By.id("text")).setValue(searchString).pressEnter();
 //        $("#submit").click();
